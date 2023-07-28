@@ -21,4 +21,9 @@ provisioner "local-exec" {
   }
 }
 
+output "result" {
+value = null_resource.ivan[each.key].id
+}
+
+
 
