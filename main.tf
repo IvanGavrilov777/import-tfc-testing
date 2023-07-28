@@ -9,7 +9,7 @@ required_providers {
 }
 
 variable "broika" {
-default = {"edno","dve","tri"}
+default = {"edno" = 1,"dve" = 2,"tri" = 3}
 }
 
 resource "null_resource" "ivan" {
