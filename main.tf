@@ -1,4 +1,12 @@
 #test 1
+terraform {
+required_providers {
+    null = {
+      source = "hashicorp/null"
+      version = "3.2.1"
+    }
+  }
+}
 
 variable "broika" {
 default = {"edno","dve","tri"}
