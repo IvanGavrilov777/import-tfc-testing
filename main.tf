@@ -1,3 +1,5 @@
+#test 1
+
 variable "broika" {
 default = {"edno","dve","tri"}
 
