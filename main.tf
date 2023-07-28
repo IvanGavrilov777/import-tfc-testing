@@ -25,5 +25,9 @@ output "result" {
 value = null_resource.ivan[*]
 }
 
+import {
+  to = null_resource.ivan["chetiri"]
+  id = "3735332602113581572"
+}
 
 
